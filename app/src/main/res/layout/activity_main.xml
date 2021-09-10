@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5BED5"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/player_layout"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"></include>
+
+    <include layout="@layout/game_layout">
+
+    </include>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:fontFamily="@font/nosifer"
+        android:gravity="center"
+        android:text="Start"
+        android:textColor="#A52424"
+        android:textSize="24sp" />
+
+    <include
+        layout="@layout/home_reset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></include>
+
+</LinearLayout>

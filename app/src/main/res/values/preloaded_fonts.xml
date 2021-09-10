@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/berkshire_swash</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/codystar</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/gloria_hallelujah</item>
+        <item>@font/monofett</item>
+        <item>@font/nosifer</item>
+        <item>@font/permanent_marker</item>
+        <item>@font/spirax</item>
+    </array>
+</resources>
